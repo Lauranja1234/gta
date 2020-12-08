@@ -1,0 +1,539 @@
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------Cel Medio-PC Pequeno------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 765px) {
+
+/*Menu de Cima*/
+.MaskMenu{
+  width:100%;
+  height:5em;
+}
+
+
+.MenuLogo{
+  width:11vw;
+  position: absolute;
+}
+
+.Guide{
+  margin-top:5px;
+  margin-bottom:5px;
+  float: left;
+  left:10vw
+}
+
+.Search{
+  color:#748bbb;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  background-color:#381e54; 
+  border-style: solid;
+  border-color: #2A3F6A;
+  width:60vw;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:10vw;
+}
+
+
+.Search_Button{
+  color: #748bbb;
+  margin-left:-0.1vw;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  background-color:#381e54; 
+  border-style: solid;
+  border-color: #2A3F6A;
+  width:18vw;
+}
+
+.Search_Button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.MenuBar{
+  position: fixed;
+  width:100%;
+  background-color:#1e0737; 
+  border-bottom-style: solid;
+  border-color: #2A3F6A;
+  color:white;
+}
+
+/*Seu perfil*/
+
+.MaskPerfil{	
+    display: inline;
+	  margin-left:2vw;
+	  margin-top:4vh;
+	  width:25vw;
+	  height:50vh;
+	  text-align: center;
+}
+
+.Perfil_Part{
+	 position: fixed;
+    border-style:solid;
+  	border-color:#2A3F6A;
+  	border-radius: 7px;
+    display: inline;
+	  left:2vw;
+	  margin-top:-0.4vh;
+	  width:25vw;
+	  height:20em;
+	  text-align: center;
+}
+
+.PerfilPhoto{
+  	border-style:solid;
+  	border-color:#2A3F6A;
+  	border-radius: 100%;
+  	height: 14vw;
+  	object-fit: cover;
+  	width: 14vw;  
+}
+
+.Perfil_Buttons{
+	background-color:#111111;
+  border-color: #2A3F6A;
+  color:white;
+  border-radius:5px;
+	width:10vw;
+}
+
+
+/*Posts Alheios*/
+
+.Posts_Part{
+	margin-left:2vw;
+	margin-top:4vh;
+	width:63vw;
+	height:17.3vh;
+}
+
+.Post{		
+	width:62vw;
+}
+
+.MiniPerfil{
+	border-top-style: solid;
+	border-color: #2A3F6A;
+	float: left;
+  display: inline-flex;
+	font-size:0.3em;
+}
+.MiniPerfilPhoto{
+  	border-radius: 100%;
+  	height: 8vw;
+  	object-fit: cover;
+  	width: 8vw;  
+}
+
+.Perfil_Name{
+	width:55vw;
+	font-size:1.9em;
+}
+
+.Write_Part{
+	margin-bottom:3em;
+	font-size:1.7em;
+	word-wrap: break-word;
+	margin-top:3.3vw;
+	margin-left:-55vw;
+    display: inline-flex;
+	width:55vw;	
+}
+
+/*cool Button*/
+.btn:link,
+.btn:visited {
+  font-size:0.75em;
+  height:2.5em;
+  border-color:#2A3F6A;
+    background-color: #111111;
+    color: #fff;
+    border-radius: 100px;
+    transition: all .2s;
+}
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------PC---------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 765px) {
+/*Parte do cadastro*/
+.Cadas_Input{
+}
+
+/*Menu de Cima*/
+.MenuLogo{
+	width:5vw;
+	position: absolute;
+}
+
+.Guide{
+	margin-top:5px;
+	margin-bottom:5px;
+	float: left;
+	left:4vw
+}
+
+.Search{
+  color:#748bbb;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  background-color:#381e54; 
+  border-style: solid;
+  border-color: #2A3F6A;
+	width:77vw;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:6vw;
+}
+
+
+.Search_Button{
+  color: #748bbb;
+  margin-left:-0.1vw;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  background-color:#381e54; 
+  border-style: solid;
+  border-color: #2A3F6A;
+  width:5.1em;
+}
+
+.Search_Button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.MenuBar{
+  position: fixed;
+  width:100%;
+  background-color:#1e0737; 
+  border-bottom-style: solid;
+  border-color: #2A3F6A;
+  color:white;
+}
+.MaskMenu{
+  width:100%;
+  height:5em;
+}
+
+/*Seu perfil*/
+
+.MaskPerfil{	
+  display: inline-block;
+	margin-left:2vw;
+	margin-top:4vh;
+	width:18vw;
+	height:25em;
+	text-align: center;
+}
+
+.Perfil_Part{
+	position: fixed;
+  	border-style:solid;
+  	border-color:#2A3F6A;
+  	border-radius: 7px;
+    display: inline-block;
+	left:2vw;
+	margin-top:-0.4vh;
+	width:18vw;
+	height:26em;
+	text-align: center;
+}
+
+.PerfilPhoto{
+  	border-style:solid;
+  	border-color:#2A3F6A;
+  	border-radius: 100%;
+  	height: 14vw;
+  	object-fit: cover;
+  	width: 14vw;  
+}
+
+.Perfil_Buttons{
+	background-color:#111111;
+  	border-color: #2A3F6A;
+  	color:white;
+  	border-radius:5px;
+	width:10vw;
+}
+
+/*Posts Alheios*/
+
+.Posts_Part{
+	margin-left:2vw;
+	margin-top:4vh;
+	width:63vw;
+	height:17.3vh;
+}
+
+.Post{		
+	width:62vw;
+}
+
+.MiniPerfil{
+	margin-bottom:7em;
+	border-top-style: solid;
+	border-color: #2A3F6A;
+	float: left;
+  display: inline-flex;
+	font-size:0.5em;
+}
+.MiniPerfilPhoto{
+  margin-top:1vh;
+    margin-bottom:1vh;
+  	border-radius: 100%;
+  	height: 6.5vw;
+  	object-fit: cover;
+  	width: 6.5vw;  
+}
+
+.Perfil_Name{
+	width:55vw;
+	font-size:2.1em;
+}
+
+.Write_Part{
+	font-size:2em;
+	word-wrap: break-word;
+	margin-top:25px;
+	margin-left:-55vw;
+  display: inline-flex;
+	width:55vw;	
+}
+
+
+/*cool Button*/
+.btn:link,
+.btn:visited {
+  font-size:1em;
+  height:2.5em;
+  border-color:#2A3F6A;
+    background-color: #111111;
+    color: #fff;
+    border-radius: 100px;
+    transition: all .2s;
+}
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------Todos--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*cool Button*/
+.btn2{
+  font-size:1em;
+  height:2.5em;
+  border-color:#2A3F6A;
+    background-color: #000000;
+    color: #000;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn2:hover {
+  background-color: #000;
+    color:white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+	background-color: #fff;
+    color: #111111;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn-white2 {
+    background-color: #fff;
+    color:white;
+}
+
+.btn::after {
+	background-color: #fff;
+    color:white;
+    content: "";
+    display: inline-block;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn2::after {
+  background-color: #000;
+    color:white;
+    content: "";
+    display: inline-block;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.btn-white2::after {
+    background-color: #000;
+    color:white;
+}
+
+.btn2:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/*Modal*/
+.modal {
+  font-size:75%;
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  padding-top: 25px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modalContent {
+  background-color: #1e0737;
+  margin: auto;
+  padding: 20px;
+  border-radius:4px;
+  border: 1px solid #1e0737;
+  width: 70%;
+}
+
+.close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Post_Input{
+	width:95%;
+}
+
+
+/* inputs top */
+
+.input-container {
+  position: relative;
+}
+
+.input {
+  border: 0;
+  border-bottom: 2px solid #9e9e9e;
+  outline: none;
+  transition: .2s ease-in-out;
+  width: 80%;
+  box-sizing: border-box;
+} 
+
+.option {
+  color: #616161;
+  border: 0;
+  border-bottom: 2px solid #9e9e9e;
+  outline: none;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.label {
+  top: 0;
+  left: 0; right: 0;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 1rem;
+  cursor: text;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.input,
+.label {
+  margin-left:20%;
+  width: 65%;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+
+/* Interation */
+.input:valid,
+.input:focus {
+  border-bottom: 2px solid #26a69a;  
+}
+
+.input2:valid,
+.input2:focus {
+  color: #fff;
+  border-bottom: 2px solid #26a69a;  
+}
+
+.input:valid + .label,
+.input:focus + .label {
+  color: #26a69a;
+  font-size: .8rem;
+  top: -20px;
+  pointer-events: none;
+}
+* {
+  font-family: sans-serif;
+}
